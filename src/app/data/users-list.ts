@@ -1,97 +1,119 @@
 import { IUser } from "../interfaces/user/user.interface";
 
  export const UserList: IUser [] = [
-{
-    name:"Wesley caldeira",
-    email:"Wesley@gmail.com",
-    password:"amor",
-    age:"28",
-    address:{
-       road:"rua do amor",
-       number:"10",
-       city:"São Sebastião",
-       state:"DF",
-       country:"Brasil"  
+    {
+        nome: "Wesley Caldeira",
+        email: "Wesley@example.com",
+        senha: "123",
+        idade: 28,
+        endereco: {
+            rua: "Rua do amor",
+            numero: 37,
+            cidade: "São Sebastião",
+            estado: "DF",
+            pais: "Brasil"
+        },
+        telefone: "111111111111",
+        ativo: true,
+        funcao: "Desenvolvedor",
+        dataCadastro: "2023-08-01T09:00:00.000Z",
+        status: {
+            online: true,
+            verificado: true,
+            assinaturaAtiva: true,
+            ultimoAcesso: "2023-08-02T09:00:00.000Z"
+        }
     },
-    phone:"61993644655",
-    active:true,
-    function:"Desenvolvedor",
-    dateRegister:"2024-03-05T10:30:00:000Z",
-    status:{
-        online:true,
-        checked:true,
-        activeSubscription:true,
-        lastacess:"2024-03-05T15:30:00:000Z"
-    }
-},
-
-{
-    name:"Dayla",
-    email:"Dayla@gmail.com",
-    password:"love",
-    age:"25",
-    address:{
-       road:"rua do love",
-       number:"100",
-       city:"Samambaia",
-       state:"DF",
-       country:"Brasil"  
+    {
+        nome: "Dayla",
+        email: "Dayla@example.com",
+        senha: "1234",
+        idade: 25,
+        endereco: {
+            rua: "Mangueiral",
+            numero: 100,
+            cidade: "Samambaia",
+            estado: "DF",
+            pais: "Brasil"
+        },
+        telefone: "222222222",
+        ativo: false,
+        funcao: "Enfermeira",
+        dataCadastro: "2023-08-05T09:00:00.000Z",
+        status: {
+            online: false,
+            verificado: false,
+            assinaturaAtiva: false,
+            ultimoAcesso: "2023-08-06T09:00:00.000Z"
+        }
     },
-    phone:"61911111111",
-    active:true,
-    function:"Enfermeira",
-    dateRegister:"2024-01-01T12:30:00:000Z",
-    status:{
-        online:true,
-        checked:true,
-        activeSubscription:true,
-        lastacess:"2024-03-05T13:30:00:000Z"
-    }
-},
-{
-    name:"Miguel",
-    email:"Miguel@gmail.com",
-    password:"brincar",
-    age:"8",
-    address:{
-       road:"rua da brincadeira",
-       number:"38",
-       city:"São Sebastião",
-       state:"DF",
-       country:"Brasil"  
+    {
+        nome: "Miguel",
+        email: "Miguel@example.com",
+        senha: "12345",
+        idade: 18,
+        endereco: {
+            rua: "São José",
+            numero: 5,
+            cidade: "São Sebastião",
+            estado: "DF",
+            pais: "Brasil"
+        },
+        telefone: "33333333",
+        ativo: true,
+        funcao: "Gerente",
+        dataCadastro: "2023-08-10T09:00:00.000Z",
+        status: {
+            online: false,
+            verificado: true,
+            assinaturaAtiva: false,
+            ultimoAcesso: "2023-08-12T09:00:00.000Z"
+        }
     },
-    phone:"61933333333",
-    active:true,
-    function:"estagiario",
-    dateRegister:"2024-03-05T11:11:11:000Z",
-    status:{
-        online:true,
-        checked:true,
-        activeSubscription:true,
-        lastacess:"2024-03-05T20:30:00:000Z"
-    }
-},
-{
-    name:"Neuza",
-    email:"Neuza@gmail.com",
-    password:"Word",
-    age:"48",
-    address:{
-       road:"rua São José",
-       number:"13",
-       city:"São Sebastião",
-       state:"DF",
-       country:"Brasil"  
+    {
+        nome: "Neuza",
+        email: "Neuza@example.com",
+        senha: "123456",
+        idade: 50,
+        endereco: {
+            rua: "Rua das mães",
+            numero: 80,
+            cidade: "São Sebastião",
+            estado: "DF",
+            pais: "Brasil"
+        },
+        telefone: "444444444",
+        ativo: false,
+        funcao: "Dona de Casa",
+        dataCadastro: "2023-08-15T09:00:00.000Z",
+        status: {
+            online: true,
+            verificado: false,
+            assinaturaAtiva: true,
+            ultimoAcesso: "2023-08-18T09:00:00.000Z"
+        }
     },
-    phone:"6194444444444",
-    active:true,
-    function:"RH",
-    dateRegister:"2024-03-05T20:30:00:000Z",
-    status:{
-        online:true,
-        checked:true,
-        activeSubscription:true,
-        lastacess:"2024-03-05T22:30:00:000Z"
+    {
+        nome: "Reinaldo",
+        email: "Reinaldo@example.com",
+        senha: "1234567",
+        idade: 35,
+        endereco: {
+            rua: "Centro",
+            numero: 60,
+            cidade: "Tabocas",
+            estado: "BA",
+            pais: "Brasil"
+        },
+        telefone: "555555555",
+        ativo: true,
+        funcao: "Mestre de obra",
+        dataCadastro: "2023-08-20T09:00:00.000Z",
+        status: {
+            online: false,
+            verificado: true,
+            assinaturaAtiva: false,
+            ultimoAcesso: "2023-08-25T09:00:00.000Z"
+        }
     }
-},
- ];
+];
