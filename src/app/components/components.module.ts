@@ -5,6 +5,7 @@ import { FilterComponent } from './filter/filter.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { UsersListComponent } from './users-list/users-list.component';
+import { PipesModel } from '../pipes/pipes.module';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { UsersListComponent } from './users-list/users-list.component';
     angularMaterialModule, 
     CommonModule,
     FormsModule,
+    PipesModel
     
   ],
   exports: [UserDetailsComponent,

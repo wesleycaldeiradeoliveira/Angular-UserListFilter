@@ -13,7 +13,7 @@ import { IUser } from "../interfaces/user/user.interface";
             estado: "DF",
             pais: "Brasil"
         },
-        telefone: "111111111111",
+        telefone: "61991433452",
         ativo: true,
         funcao: "Desenvolvedor",
         dataCadastro: "2023-08-01T09:00:00.000Z",
