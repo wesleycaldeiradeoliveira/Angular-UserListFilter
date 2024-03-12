@@ -16,12 +16,12 @@ import { IUser } from "../interfaces/user/user.interface";
         telefone: "61991433452",
         ativo: true,
         funcao: "Desenvolvedor",
-        dataCadastro: "2023-08-01T09:00:00.000Z",
+        dataCadastro: "2024-03-12T09:00:00.000Z",
         status: {
             online: true,
             verificado: true,
             assinaturaAtiva: true,
-            ultimoAcesso: "2023-08-02T09:00:00.000Z"
+            ultimoAcesso: "2024-03-12T09:00:00.000Z"
         }
     },
     {
@@ -39,12 +39,12 @@ import { IUser } from "../interfaces/user/user.interface";
         telefone: "222222222",
         ativo: false,
         funcao: "Enfermeira",
-        dataCadastro: "2023-08-05T09:00:00.000Z",
+        dataCadastro: "2024-03-05T09:00:00.000Z",
         status: {
             online: false,
             verificado: false,
             assinaturaAtiva: false,
-            ultimoAcesso: "2023-08-06T09:00:00.000Z"
+            ultimoAcesso: "2024-03-06T09:00:00.000Z"
         }
     },
     {
@@ -62,12 +62,12 @@ import { IUser } from "../interfaces/user/user.interface";
         telefone: "33333333",
         ativo: true,
         funcao: "Gerente",
-        dataCadastro: "2023-08-10T09:00:00.000Z",
+        dataCadastro: "2024-03-10T09:00:00.000Z",
         status: {
             online: false,
             verificado: true,
             assinaturaAtiva: false,
-            ultimoAcesso: "2023-08-12T09:00:00.000Z"
+            ultimoAcesso: "2024-08-12T09:00:00.000Z"
         }
     },
     {
@@ -85,12 +85,12 @@ import { IUser } from "../interfaces/user/user.interface";
         telefone: "444444444",
         ativo: false,
         funcao: "Dona de Casa",
-        dataCadastro: "2023-08-15T09:00:00.000Z",
+        dataCadastro: "2024-03-15T09:00:00.000Z",
         status: {
             online: true,
             verificado: false,
             assinaturaAtiva: true,
-            ultimoAcesso: "2023-08-18T09:00:00.000Z"
+            ultimoAcesso: "2024-08-18T09:00:00.000Z"
         }
     },
     {
@@ -108,12 +108,12 @@ import { IUser } from "../interfaces/user/user.interface";
         telefone: "555555555",
         ativo: true,
         funcao: "Mestre de obra",
-        dataCadastro: "2023-08-20T09:00:00.000Z",
+        dataCadastro: "2024-03-20T09:00:00.000Z",
         status: {
             online: false,
             verificado: true,
             assinaturaAtiva: false,
-            ultimoAcesso: "2023-08-25T09:00:00.000Z"
+            ultimoAcesso: "2024-03-25T09:00:00.000Z"
         }
     }
 ];
