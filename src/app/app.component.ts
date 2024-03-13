@@ -1,17 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { IUser } from './interfaces/user/user.interface';
-
+import { UserList } from './data/users-list';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
-export class AppComponent {
-  userSelected : IUser = {} as IUser;
-  showUserDetails: boolean = false;
+export class AppComponent implements OnInit{
 
-  onUserSelected(user:IUser){
+  usersList: IUser[] = [];
+  userSelected: IUser = {} as IUser;
+  showUserDetails: boolean = false;
+  ngOnInit() {
+   setTimeout(() => {
+    this.usersList = UserList
+   }, 3000);
+  }
+
+  onUserSelected(user: IUser) {
     this.userSelected = user;
     this.showUserDetails = true;
   }
